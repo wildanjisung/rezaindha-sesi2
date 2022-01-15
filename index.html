@@ -127,7 +127,7 @@
                     </p>
                   </p>
                   <audio id="yourAudio">
-                    <source src="assets/music.mp3" type="audio/mpeg">
+                    <source src="assets/music_cut.mp3" type="audio/mpeg">
                 </audio>
                   <a id="audioControl" class="button is-rounded myColor myBorder myBackgroundTransparant" href="#section1">Buka Undangan</a>
               </div>
@@ -203,6 +203,12 @@ Q.S Adz- Dzariat ayat 49</p><img class="img-quote myTransform" src="https://api.
             <ion-icon name="heart"></ion-icon>
           </p>
 
+          <p class="my-3">
+            <ion-icon name="heart"></ion-icon>
+            Jam 13.00 sd 15.00
+            <ion-icon name="heart"></ion-icon>
+          </p>
+
         </div>
       </div>
 
@@ -226,15 +232,15 @@ Q.S Adz- Dzariat ayat 49</p><img class="img-quote myTransform" src="https://api.
           </p>
           <p class="my-3">
             <ion-icon name="time"></ion-icon>
-            Pukul 09:00 WIB - selesai
+            Pukul 09:00 WIB - Selesai
           </p>
           <p class="my-3">
             <ion-icon name="trail-sign"></ion-icon>
             Dsn Tenggong, Plumpungrejo, Kec. Kademangan, Blitar
           </p>
 
-          <p class="m-6">
-            Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila, Bapak / Ibu / Saudara / i. berkenan hadir untuk memberikan do'a restunya kami ucapkan terimakasih.
+          <p class="subtitle myColor is-5 couple_name m-6">
+            Mohon Kehadiran dan Doa Restunya
           </p>
 
         </div>
@@ -261,7 +267,7 @@ Q.S Adz- Dzariat ayat 49</p><img class="img-quote myTransform" src="https://api.
 
     // date counting
     moment.locale('id');
-    let datecount = moment("20220127", "YYYYMMDD").fromNow(true);
+    let datecount = moment("20220127", "YYYYMMDD").fromNow(true) + ' Lagi';
     document.getElementById("datecount").innerHTML = datecount;
 
   </script>
